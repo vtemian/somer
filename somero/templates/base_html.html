@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/somer.js"></script>
+    <script type="text/javascript" src="/static/js/login.js"></script>
+    <script type="text/javascript" src="/static/js/home.js"></script>
+    <script type="text/javascript" src="/static/js/modifica.js"></script>
+    <script type="text/javascript" src="/static/js/add-jobs.js"></script>
+    <script type="text/javascript" src="/static/js/paginare.js"></script>
+    <link media="screen" type="text/css" rel="stylesheet" href="/static/css/style.css">
+    <title>Somer</title>
+</head>
+<body>
+<div id="login">
+    {% if not user.is_authenticated %}
+        <div id="login-logout">
+            <form id="login-form">
+               {% csrf_token %}
+               <input type="text" placeholder="Utilizator" name="utilizator">
+               <input type="password" placeholder="Parola" name="parola" >
+               <button id="login-btn">Login</button>
+            </form>
+        </div>
+    {% else %}
+        <div id="login-logat">
+            Bun venit, {{ user.first_name }}!
+            <a href="/profil">Contul meu</a>
+            <a href="/logout">Logout</a>
+        </div>
+    {% endif %}
+</div>
+<div id="content">
+{% block content %}
+{% endblock %}
+</div>
+</body>
+</html>

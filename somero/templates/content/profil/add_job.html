@@ -1,0 +1,14 @@
+<form id="add">
+    {% csrf_token %}
+    <input type="text" name="Titlu" placeholder="Titlu"><br />
+    <textarea name="Descriere" placeholder="Descriere"></textarea><br>
+    <select name="Judet">
+        <option value="Arad">Arad</option>
+        <option value="Timis">Timis</option>
+    </select><br>
+    <input type="text" name="Localitate" placeholder="Localitate"><br />
+    <input type="text" name="Varsta" placeholder="Varsta"><br />
+    <input type="text" name="Sex" placeholder="Sex"><br />
+    <input type="text" name="Recompensa" placeholder="Recompensa"><br />
+    <button id="add-job-btn">Inregistreaza</button>
+</form>

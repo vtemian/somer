@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    overflow:hidden;
+    padding: 0;
+}
+a#filtre_a.active{
+    
+}
+#fjudet{
+    float:left;
+}
+
+#flocalitate{
+    float:left;
+}
+
+#fvarsta{
+    float:left;
+}
+
+#frecompensa{
+    float:left;
+}
+#filtre-img{
+    height: 10%;
+    width: 6%;
+}
+#filtre_a{
+    background:#2e70f7;
+    padding: 5px;
+    position:absolute;
+    font-size:22px;
+    border-radius:20%;
+    color:#FFFFFF;
+    cursor: pointer;
+    
+}
+#filtre_a.non{
+    color:red;
+}
+
+#filtre{
+   display:none;
+}
+#filtre.active{
+    display:block;
+}
+
+#localitate-form{
+    display:none;
+
+}
+#localitate-form.active{
+    display:block;
+}
+#judet-form{
+    display:none;
+
+}
+#judet-form.active{
+    display:block;
+}
+#varsta-form{
+    display:none;
+
+}
+#varsta-form.active{
+    display:block;
+}
+
+#recompensa-form{
+    display:none;
+  
+}
+#recompensa-form.active{
+    display:block;
+}
+
+#content{
+    left: 50%;
+    margin-left: -480px;
+    position: absolute;
+    width: 900px;
+    overflow:hidden;
+    margin-top: 30px;
+}
+#job{
+    background: none repeat scroll 0 0 #6699ff;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    height: 125px;
+    margin-bottom: 20px;
+    width: 900px;
+}
+img#filtre-img{
+    width:3%;
+    height:5%;
+    background-image:url("/static/img/ok.png")
+}
+#login{
+    float:right;
+}
+#add_job{
+    display:none;
+}
+#add_job.active{
+    display:block;
+}
+#jobs{
+    display:none;
+    height: 420px;
+    margin-top: 50px;
+    overflow: hidden;
+    width: 100%;
+}
+#judet{
+    height:800px;
+   
+}
+#mod_bar{
+    display:none;
+}
+#mod_bar.activ{
+    display:block;
+
+}
+#div-mod-parola{
+    display:none;
+}
+#div-mod-parola.activ{
+    display:block;
+    float:left;
+}
+
+#div-mod-email{
+    display:none;
+}
+#div-mod-email.activ{
+    display:block;
+    float:left;
+}
+
+#div-mod-judet{
+    display:none;
+}
+#div-mod-judet.activ{
+    display:block;
+    float:left;
+}
