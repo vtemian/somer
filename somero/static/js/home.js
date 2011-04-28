@@ -35,29 +35,23 @@ $('document').ready(function(){
         });
         return false;
     });
-    $("#filtre-img").click(function(){
+    $("#filtre_a").click(function(){
         $('#filtre').toggleClass('active');
-
-    });
-    $('#fjudet-a').click(function(){
-       $('#judet-form').toggleClass('active');
-    });
-
-    $('#flocalitate-a').click(function(){
-       $('#localitate-form').toggleClass('active');
-    });
-
-    $('#fvarsta-a').click(function(){
-       $('#varsta-form').toggleClass('active');
-    });
-
-    $('#frecompensa-a').click(function(){
-       $('#recompensa-form').toggleClass('active');
     });
     $("#filtre-check").click(function(){
         if($(this).is(':checked')){
             //activez filtrele
-            console.log("asd");
+            $form=$('#filtre-form');
+            $('#pagini').empty();
+            $('#jobs').empty();
+            $.post('/api/filtre/activ',$form.serializeArray(),function(response){
+               $('#pagini').append('<a class="paginare">1</a> ');
+               $.each(response,function(i){
+                    $('#jobs').append('<div id="job" tip="'+(i+1)+'"><h2>'+response[i].Titlu+'</h2>'+'<h3>'+response[i].Descriere+'</h3></div>');
+                    if(i%3==0&&i!=0)
+                        $('#pagini').append('<a class="paginare">'+(i/3+1)+'</a> ');
+               });
+            });
         }else{
             //dezactivez filtrele
         }

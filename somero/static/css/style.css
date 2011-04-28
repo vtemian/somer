@@ -45,33 +45,6 @@ a#filtre_a.active{
 #filtre.active{
     display:block;
 }
-
-#localitate-form{
-    display:none;
-
-}
-#localitate-form.active{
-    display:block;
-}
-#judet-form{
-    display:none;
-
-}
-#judet-form.active{
-    display:block;
-}
-#varsta-form{
-    display:none;
-
-}
-#varsta-form.active{
-    display:block;
-}
-
-#recompensa-form{
-    display:none;
-  
-}
 #recompensa-form.active{
     display:block;
 }
