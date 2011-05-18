@@ -1,38 +1,59 @@
 body{
+    background: url("../img/bk17x8.jpg") no-repeat scroll center top #17abfd;
     margin: 0;
     overflow:hidden;
     padding: 0;
 }
-a#filtre_a.active{
-    
+#fjudet-a.active,#flocalitate-a.active,#fvarsta-a.active,#frecompensa-a.active,#filtre_a.active{
+   color:#3faa25;
+}
+#judet-card,#localitate-card,#varsta-card,#recompensa-card{
+    display:none;
+}
+
+#judet-card.active,#localitate-card.active,#varsta-card.active,#recompensa-card.active{
+    display:block;
+}
+#filtre-img,#fjudet,#flocalitate,#fvarsta,#frecompensa{
+    background: none repeat scroll 0 0 #2E70F7;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 5px;
+    float:left;
+    margin-left:5px;
+}
+#wait{
+    background-color: #2E70F7;
+    border-radius: 1px 1px 7px 7px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 18px;
+}
+#filtre-img{
+    width:12%;
+    float:none;
+    margin-bottom: -2%;
 }
 #fjudet{
-    float:left;
+    width: 11%;
 }
 
 #flocalitate{
-    float:left;
+    width:17%
 }
 
 #fvarsta{
-    float:left;
+    width:13%;
 }
 
 #frecompensa{
-    float:left;
+    width:20%;
 }
-#filtre-img{
-    height: 10%;
-    width: 6%;
-}
+
 #filtre_a{
-    background:#2e70f7;
-    padding: 5px;
-    position:absolute;
-    font-size:22px;
-    border-radius:20%;
-    color:#FFFFFF;
-    cursor: pointer;
+    
     
 }
 #filtre_a.non{
@@ -44,9 +65,7 @@ a#filtre_a.active{
 }
 #filtre.active{
     display:block;
-}
-#recompensa-form.active{
-    display:block;
+    margin-top:3%;
 }
 
 #content{
@@ -56,6 +75,25 @@ a#filtre_a.active{
     width: 900px;
     overflow:hidden;
     margin-top: 30px;
+}
+#joburi img{
+    margin-left: 5%;
+    width: 17px;
+}
+#harta{
+    position: fixed;
+    margin-top: -10px;
+    margin-left: 75px;
+}
+#roata{
+    position: fixed;
+    margin-top: 539px;
+    margin-left: 320px;
+}
+#th{
+    position: fixed;
+    margin-top: 406px;
+    margin-left: 689px;
 }
 #job{
     background: none repeat scroll 0 0 #6699ff;
