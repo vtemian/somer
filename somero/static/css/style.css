@@ -4,6 +4,74 @@ body{
     overflow:hidden;
     padding: 0;
 }
+#joburi{
+    display:none;
+}
+#users-online{
+    background: none repeat scroll 0 0 #6699ff;
+    border-radius: 10px 10px 10px 10px;
+    float: right;
+    height: 300px;
+    width:140px;
+}
+#div-scris{
+    background: none repeat scroll 0 0 #6699FF;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    height: 116px;
+    width: 75px;
+}
+#scris-a{
+    float: left;
+    margin-left: 3px;
+    margin-top: 45px;
+}
+#scris{
+    font-size: 18px;
+    font-weight: bold;
+    height: 100px;
+    width: 800px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+#catre{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#accepta{
+    color: #FFFFFF;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -16px;
+    cursor:pointer;
+}
+#chat-display{
+    background: none repeat scroll 0 0 #6699FF;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    height: 288px;
+    padding-left: 25px;
+    padding-top: 5px;
+    width: 725px;
+    color: #FFFFFF;
+    font-weight:bold;
+    font-size: 15px;
+}
+#user-chat{
+    background: none repeat scroll 0 0 #333333;
+    border-radius: 10px 10px 10px 10px;
+    color:#FFFFFF;
+    cursor:pointer;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+#user-chat:hover{
+    font-weight:bold;
+}
 #fjudet-a.active,#flocalitate-a.active,#fvarsta-a.active,#frecompensa-a.active,#filtre_a.active{
    color:#3faa25;
 }
@@ -15,7 +83,7 @@ body{
     display:block;
 }
 #filtre-img,#fjudet,#flocalitate,#fvarsta,#frecompensa{
-    background: none repeat scroll 0 0 #2E70F7;
+    background: none repeat scroll 0 0 #333;
     border-radius: 10px 10px 10px 10px;
     color: #FFFFFF;
     cursor: pointer;
@@ -23,6 +91,7 @@ body{
     padding: 5px;
     float:left;
     margin-left:5px;
+    padding-left:20px;
 }
 #wait{
     background-color: #2E70F7;
@@ -76,6 +145,12 @@ body{
     overflow:hidden;
     margin-top: 30px;
 }
+#jobs a:hover{
+    color:#FFFFFF;
+}
+#jobs a{
+    cursor:pointer;
+}
 #joburi img{
     margin-left: 5%;
     width: 17px;
@@ -101,7 +176,9 @@ body{
     float: left;
     height: 125px;
     margin-bottom: 20px;
-    width: 900px;
+    padding-left: 10px;
+    width: 884px;
+    color:#2E2E2E;
 }
 img#filtre-img{
     width:3%;

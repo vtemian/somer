@@ -1,0 +1,28 @@
+﻿#login-btn{
+	float:right;
+}
+#modifica, #adauga, #parola, #email, #judetp{
+	background: #333;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 5px;
+    float: left;
+    margin-left: 5px;
+
+}
+#login{
+	background: none repeat scroll 0 0 #3693c7;
+	margin-top: 0px;
+	margin-right: 20px;
+    float:right;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+#paginare{
+	background: none repeat scroll 0 0 #000;
+	margin-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;	
+}

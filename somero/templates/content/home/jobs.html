@@ -1,35 +1,45 @@
 <div id="joburi">
     <div id="filtre-img">
-        <input type="checkbox" id="filtre-check">
-        <a id="filtre_a">Filtre</a>
+        <a id="filtre_a">Filtre</a><img id="filtreimg" src="/static/img/downarrow.png"><br>
     </div>
     <div id="filtre">
         <form id="filtre-form">
+            {% csrf_token %}
             <div id="fjudet">
-                <input type="checkbox" id="judet-check">
-                <a id="fjudet-a">Judet</a><br>
+                <a id="fjudet-a">Judet</a><img id="judet-img" src="/static/img/downarrow.png"><br>
+                <div id="judet-card">
+                    <input type="hidden" name="judet-h" value="" id="judet-h">
                     <select name="judet">
                         <option value="Arad">Arad</option>
+                        <option value="Timis">Timis</option>
                     </select>
+                </div>
             </div>
             <div id="flocalitate">
-                <input type="checkbox" id="localitate-check">
-                <a id="flocalitate-a">Localitate</a><br>
+                <a id="flocalitate-a">Localitate</a><img id="localitate-img" src="/static/img/downarrow.png"><br>
+                <div id="localitate-card">
+                    <input type="hidden" name="localitate-h" value="" id="localitate-h">
                     <select name="localitate">
+                        <option></option>
                         <option value="Seleus">Seleus</option>
                     </select>
+                </div>
             </div>
             <div id="fvarsta">
-                <input type="checkbox" id="varsta-check">
-                <a id="fvarsta-a">Varsta</a><br>
-                    <input type="text" name="min" placeholder="Min">-<br>
-                    <input type="text" name="max" placeholder="Max">
+                <a id="fvarsta-a">Varsta</a><img id="varsta-img" src="/static/img/downarrow.png"><br>
+                <div id="varsta-card">
+                    <input type="hidden" name="varsta-h" value="" id="varsta-h">
+                    <input type="text" name="varsta-min" size="6"  placeholder="0">-<br>
+                    <input type="text" name="varsta-max" size="6"  placeholder="120">
+                </div>
             </div>
             <div id="frecompensa">
-                <input type="checkbox" id="recompensa-check">
-                <a id="frecompensa-a">Recompensa</a><br>
-                    <input type="text" name="min" placeholder="0">-<br>
-                    <input type="text" name="max" placeholder="Max">
+                <a id="frecompensa-a">Recompensa</a><img id="recompensa-img" src="/static/img/downarrow.png"><br>
+                <div id="recompensa-card">
+                    <input type="hidden" name="recompensa-h" value="" id="recompensa-h">
+                    <input type="text" name="recompensa-min" size="6" placeholder="Min">-<br>
+                    <input type="text" name="recompensa-max" size="6"  placeholder="Max">
+                </div>    
             </div>
         </form>
     </div>

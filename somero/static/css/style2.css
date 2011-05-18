@@ -1,0 +1,87 @@
+body{
+    background: url("../img/bk17x8.jpg") no-repeat scroll center top #17abfd;
+    margin: 0;
+    overflow:hidden;
+    padding: 0;
+}
+#content{ 
+    left: 50%;
+    margin-left: -480px;
+    position: absolute;
+    width: 900px;
+    overflow:hidden;
+    margin-top: 30px;
+}
+#harta{
+    position: fixed;
+    margin-top: -10px;
+    margin-left: 75px;
+}
+#roata{
+    position: fixed;
+    margin-top: 539px;
+    margin-left: 320px;
+}
+#th{
+    position: fixed;
+    margin-top: 406px;
+    margin-left: 689px;
+}
+#job{
+    background: none repeat scroll 0 0 #6699ff;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    height: 125px;
+    margin-bottom: 20px;
+    width: 900px;
+}
+#login{
+    float:right;
+}
+#add_job{
+    display:none;
+}
+#add_job.active{
+    display:block;
+}
+#jobs{
+    display:none;
+    height: 420px;
+    margin-top: 50px;
+    overflow: hidden;
+    width: 100%;
+}
+#judet{
+    height:800px;
+   
+}
+#mod_bar{
+    display:none;
+}
+#mod_bar.activ{
+    display:block;
+
+}
+#div-mod-parola{
+    display:none;
+}
+#div-mod-parola.activ{
+    display:block;
+    float:left;
+}
+
+#div-mod-email{
+    display:none;
+}
+#div-mod-email.activ{
+    display:block;
+    float:left;
+}
+
+#div-mod-judet{
+    display:none;
+}
+#div-mod-judet.activ{
+    display:block;
+    float:left;
+}

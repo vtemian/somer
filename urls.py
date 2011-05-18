@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import *
-from staticfiles.urls import staticfiles_urlpatterns
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = patterns('',
     (r'^/?$', 'django.views.generic.simple.direct_to_template', {'template': 'index.html'}),
@@ -11,6 +11,11 @@ urlpatterns = patterns('',
     (r'^api/modifica/judet?$', 'somero.views.judet'),
     (r'^api/job/adauga?$', 'somero.views.add'),
     (r'^api/job/scoate?$', 'somero.views.ScoateJobs'),
+    (r'^api/filtre/activ?$', 'somero.views.FiltreActiv'),
+    (r'^api/filtre/inactiv?$', 'somero.views.FiltreInactiv'),
+    (r'^api/job/scoate_chat?$', 'somero.views.ScoateChat'),
+    (r'^api/job/scoate_chat_user?$', 'somero.views.ScoateChat_user'),
+    (r'^api/job/kill_room?$', 'somero.views.KillRoom'),
 )
 
 urlpatterns += staticfiles_urlpatterns()

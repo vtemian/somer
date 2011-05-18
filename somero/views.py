@@ -57,8 +57,43 @@ def add(request):
         form.instance.user=request.user
         form.save()
     return HttpResponse(form.errors)
+def FiltreActiv(request):
+    job=Job.objects.all()
+    if request.POST['judet-h']=="active":
+        job=job.filter(Judet=request.POST['judet'])
+    if request.POST['localitate-h']=="active":
+        job=job.filter(Localitate=request.POST['localitate'])
+    if request.POST['varsta-h']=="active":
+        job=job.filter(Varsta__range=(request.POST['varsta-min'],request.POST['varsta-max']))
+    if request.POST['recompensa-h']=="active":
+        job=job.filter(Recompensa__range=(request.POST['recompensa-min'],request.POST['recompensa-max']))
 
+    return json_response(job)
+@csrf_exempt
+def FiltreInactiv(request):
+    job=Job.objects.all()
+    return json_response(job)
 @csrf_exempt
 def ScoateJobs(request):
     job=Job.objects.filter(Judet=request.POST['Judet'])
     return json_response(job)
+
+@csrf_exempt
+def ScoateChat(request):
+    job=Job.objects.filter(id=request.POST['id'])
+    return json_response(job)
+
+@csrf_exempt
+def ScoateChat_user(request):
+    job=Job.objects.filter(user=request.user.id)
+    job=job.filter(id=request.POST['id'])
+    if job:
+        return HttpResponse("ok")
+    else:
+         return HttpResponse("bad")
+
+@csrf_exempt
+def KillRoom(request):
+    job=Job.objects.filter(id=request.POST['id'])
+    job.delete()
+    return HttpResponse("ok")

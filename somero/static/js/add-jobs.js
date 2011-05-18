@@ -4,7 +4,6 @@ $('document').ready(function(){
    });
    $('#add').submit(function(){
        $form = $(this);
-       alert('ad');
        $.post('/api/job/adauga',$form.serializeArray(),function(response){
               if(response.trim()==''){
                 $('#mesaj_add').animate(

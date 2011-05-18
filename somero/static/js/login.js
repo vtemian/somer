@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    var log=0;
     $('#login-form').submit(function(){
         $form = $(this);
         $.post('/api/login', $form.serializeArray(), function(response) {

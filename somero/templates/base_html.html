@@ -3,16 +3,22 @@
 <html>
 <head>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="http://davidlynch.org/js/maphilight/jquery.maphilight.min.js.pagespeed.ce.PrOjjKttdQ.js" type="text/javascript"></script>
     <script type="text/javascript" src="/static/js/somer.js"></script>
     <script type="text/javascript" src="/static/js/login.js"></script>
     <script type="text/javascript" src="/static/js/home.js"></script>
     <script type="text/javascript" src="/static/js/modifica.js"></script>
     <script type="text/javascript" src="/static/js/add-jobs.js"></script>
+    <script type="text/javascript" src="/static/js/jobs.js"></script>
     <script type="text/javascript" src="/static/js/paginare.js"></script>
+    <script type="text/javascript" src="/static/js/chat_server.js"></script>
+    <script type="text/javascript" src="/static/chatserver/socket.io.js/socket.io.min.js"></script>
     <link media="screen" type="text/css" rel="stylesheet" href="/static/css/style.css">
+    <link media="screen" type="text/css" rel="stylesheet" href="/static/css/klau.css">
     <title>Somer</title>
 </head>
 <body>
+
 <div id="login">
     {% if not user.is_authenticated %}
         <div id="login-logout">
@@ -31,9 +37,13 @@
         </div>
     {% endif %}
 </div>
+
 <div id="content">
 {% block content %}
+
 {% endblock %}
 </div>
+<div id="wait" style=" width: 11%; margin-left: 40%;"></div>
+
 </body>
 </html>
