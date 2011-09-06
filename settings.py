@@ -6,6 +6,15 @@ ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
 )
 
+FACEBOOK_ACCESS_SETTINGS = {
+        "FACEBOOK_APP_ID": '124430930971021',
+        "FACEBOOK_APP_SECRET": 'fff0f1aa0df1d4ed6894759ce3faef5c',
+        # The following keys are optional
+        # "CALLBACK": "la_facebook.callbacks.default.default_facebook_callback",
+        # "PROVIDER_SCOPE": ['email','read_stream'],
+        # "LOG_LEVEL": "DEBUG",
+        # "LOG_FILE": "/tmp/la_facebook.log",
+}
 MANAGERS = ADMINS
 
 DATABASES = {
@@ -71,14 +80,16 @@ TEMPLATE_LOADERS = (
 #     'django.template.loaders.eggs.Loader',
 )
 
+
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    
+     
 )
+
 
 ROOT_URLCONF = 'somer.urls'
 
@@ -96,6 +107,6 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'somer.somero',
     'django.contrib.staticfiles',
-    'somer.somero.utils'
-
+    'somer.somero.utils',
+    'la_facebook',
 )

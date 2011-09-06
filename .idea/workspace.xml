@@ -2,48 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e87fb57-a3b7-4ee0-baac-2efa2d310385" name="Default" comment="Merge branch 'master' of github.com:vtemian/somer&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/somero/static/img/bk17x8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/somero/static/img/roata.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/somero/static/img/th.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/somero/static/js/chat_server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/somero/templates/content/home/chat.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/somero/static/img/no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/somero/static/img/ok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/somero/static/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/somer.iml" afterPath="$PROJECT_DIR$/.idea/somer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/img/harta.png" afterPath="$PROJECT_DIR$/somero/static/img/harta.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/somero/templates/job.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/chatserver/node" afterPath="$PROJECT_DIR$/somero/static/chatserver/node" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/forms.py" afterPath="$PROJECT_DIR$/somero/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/models.py" afterPath="$PROJECT_DIR$/somero/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/chatserver/server.js" afterPath="$PROJECT_DIR$/somero/static/chatserver/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/css/klau.css" afterPath="$PROJECT_DIR$/somero/static/css/klau.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/css/style.css" afterPath="$PROJECT_DIR$/somero/static/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/js/add-jobs.js" afterPath="$PROJECT_DIR$/somero/static/js/add-jobs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/js/chat_server.js" afterPath="$PROJECT_DIR$/somero/static/js/chat_server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/js/home.js" afterPath="$PROJECT_DIR$/somero/static/js/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/js/login.js" afterPath="$PROJECT_DIR$/somero/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/js/modifica.js" afterPath="$PROJECT_DIR$/somero/static/js/modifica.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/js/paginare.js" afterPath="$PROJECT_DIR$/somero/static/js/paginare.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/static/js/somer.js" afterPath="$PROJECT_DIR$/somero/static/js/somer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/base_html.html" afterPath="$PROJECT_DIR$/somero/templates/base_html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/home/home.html" afterPath="$PROJECT_DIR$/somero/templates/content/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/home/job.html" afterPath="$PROJECT_DIR$/somero/templates/content/home/job.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/home/jobs.html" afterPath="$PROJECT_DIR$/somero/templates/content/home/jobs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/home/chat.html" afterPath="$PROJECT_DIR$/somero/templates/content/home/chat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/home/judet.html" afterPath="$PROJECT_DIR$/somero/templates/content/home/judet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/profil/add_job.html" afterPath="$PROJECT_DIR$/somero/templates/content/profil/add_job.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/profil/email.html" afterPath="$PROJECT_DIR$/somero/templates/content/profil/email.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/profil/judet.html" afterPath="$PROJECT_DIR$/somero/templates/content/profil/judet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/profil/parola.html" afterPath="$PROJECT_DIR$/somero/templates/content/profil/parola.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/content/profil/profil.html" afterPath="$PROJECT_DIR$/somero/templates/content/profil/profil.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/index.html" afterPath="$PROJECT_DIR$/somero/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/templates/profil.html" afterPath="$PROJECT_DIR$/somero/templates/profil.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/tests.py" afterPath="$PROJECT_DIR$/somero/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/util.py" afterPath="$PROJECT_DIR$/somero/util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/utils/json_encoder.py" afterPath="$PROJECT_DIR$/somero/utils/json_encoder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/utils/render.py" afterPath="$PROJECT_DIR$/somero/utils/render.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/somero/views.py" afterPath="$PROJECT_DIR$/somero/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
     </list>
@@ -68,91 +42,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="40" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/somero/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="14" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/somero/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="43" column="15" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somero/static/chatserver/server.js">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/somero/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="63" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.0">
+            <state line="4" column="6" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/somero/static/js/home.js">
+      <file leaf-file-name="base_html.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/somero/templates/base_html.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="43" selection-start="657" selection-end="657" vertical-scroll-proportion="-3.175403">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modifica.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somero/static/js/modifica.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add-jobs.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somero/static/js/add-jobs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="15" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat_server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somero/static/js/chat_server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="125" selection-start="5988" selection-end="6425" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="somer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somero/static/js/somer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somero/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="22" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jobs.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somero/templates/content/home/jobs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="66" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profil.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/somero/templates/content/profil/profil.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+            <state line="5" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.14044943">
               <folding />
             </state>
           </provider>
@@ -167,28 +96,28 @@
   </component>
   <component name="Git.Settings">
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
-    <option name="UPDATE_CHANGES_POLICY" value="KEEP" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/somero/templates/index.html" />
-        <option value="$PROJECT_DIR$/somero/server.js" />
-        <option value="$PROJECT_DIR$/somero/static/js/login.js" />
         <option value="$PROJECT_DIR$/urls.py" />
-        <option value="$PROJECT_DIR$/somero/views.py" />
-        <option value="$PROJECT_DIR$/somero/templates/content/home/chat.html" />
-        <option value="$PROJECT_DIR$/somero/templates/base_html.html" />
-        <option value="$PROJECT_DIR$/somero/templates/content/home/judet.html" />
+        <option value="$PROJECT_DIR$/somero/forms.py" />
         <option value="$PROJECT_DIR$/somero/static/js/add-jobs.js" />
-        <option value="$PROJECT_DIR$/somero/static/css/style.css" />
-        <option value="$PROJECT_DIR$/somero/static/js/home.js" />
-        <option value="$PROJECT_DIR$/somero/templates/content/home/jobs.html" />
-        <option value="$PROJECT_DIR$/somero/templates/content/profil/profil.html" />
-        <option value="$PROJECT_DIR$/somero/static/chatserver/server.js" />
-        <option value="$PROJECT_DIR$/somero/static/js/chat_server.js" />
+        <option value="$USER_HOME$/Desktop/shomer/index.html" />
         <option value="$PROJECT_DIR$/somero/static/css/klau.css" />
+        <option value="$PROJECT_DIR$/somero/views.py" />
+        <option value="$PROJECT_DIR$/somero/static/js/home.js" />
+        <option value="$PROJECT_DIR$/somero/static/css/style.css" />
+        <option value="$PROJECT_DIR$/somero/static/js/login.js" />
+        <option value="$PROJECT_DIR$/somero/templates/content/home/chat.html" />
+        <option value="$PROJECT_DIR$/somero/templates/job.html" />
+        <option value="$PROJECT_DIR$/somero/static/css/itec.css" />
+        <option value="$PROJECT_DIR$/somero/templates/content/home/judet.html" />
+        <option value="$PROJECT_DIR$/somero/static/js/chat_server.js" />
+        <option value="$PROJECT_DIR$/somero/static/chatserver/server.js" />
+        <option value="$PROJECT_DIR$/somero/templates/base_html.html" />
       </list>
     </option>
   </component>
@@ -265,11 +194,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,6 +216,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="somer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="somer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="somero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Favorites" />
@@ -301,39 +248,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings.github" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/somero/templates" />
       <recent name="D:\somer\somero\static\img" />
       <recent name="D:\somer\somero\static\css" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.somero">
-    <configuration default="false" name="Doctests in D:\somer\somero" type="PythonDocTestRunConfigurationType" factoryName="Python's doctests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somero" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="somer" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$/somero" />
-      <option name="TEST_TYPE" value="TEST_FOLDER" />
-      <option name="PATTERN" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -473,18 +406,38 @@
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Doctests in D:\somer\somero" type="PythonDocTestRunConfigurationType" factoryName="Python's doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/somero" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="somer" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/somero" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
+      <option name="PATTERN" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python's doctests.Doctests in D:\somer\somero" />
-      <item index="1" class="java.lang.String" itemvalue="Django server.somero" />
+      <item index="0" class="java.lang.String" itemvalue="Django server.somero" />
+      <item index="1" class="java.lang.String" itemvalue="Python's doctests.Doctests in D:\somer\somero" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -515,21 +468,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="24" width="1382" height="728" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1" y="1" width="1368" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249499" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32910448" sideWeight="0.7953737" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20462634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19388516" sideWeight="0.74911034" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39862543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2504259" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -539,6 +492,15 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
     <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
@@ -550,6 +512,7 @@
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:vtemian/somer&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -570,66 +533,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/somero/static/js/paginare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/somero/static/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/static/css/klau.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/templates/content/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/static/chatserver/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="63" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/static/js/somer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="22" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/templates/content/home/jobs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="66" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/somero/templates/content/profil/profil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" />
+        <state line="18" column="48" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/somero/static/js/modifica.js">
@@ -637,19 +543,76 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/somero/static/js/paginare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="24" selection-start="2376" selection-end="2376" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero/static/chatserver/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="30" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.028142588" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero/static/js/somer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/somero/static/js/add-jobs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="15" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/somero/static/js/chat_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="125" selection-start="5988" selection-end="6425" vertical-scroll-proportion="0.0" />
+        <state line="131" column="59" selection-start="10914" selection-end="10914" vertical-scroll-proportion="0.028846154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/somero/static/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="657" selection-end="657" vertical-scroll-proportion="-3.175403">
+        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero/static/css/itec.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="1" selection-start="9497" selection-end="9497" vertical-scroll-proportion="0.028846154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="14" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="15" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/somero/templates/base_html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.14044943">
           <folding />
         </state>
       </provider>

@@ -6,13 +6,11 @@ $('document').ready(function(){
        $form = $(this);
        $.post('/api/job/adauga',$form.serializeArray(),function(response){
               if(response.trim()==''){
-                $('#mesaj_add').animate(
-                                            {display:"inline"},
-                                            500,
-                                            function(){
-                                                $('#mesaj_add').animate({display:"none"},500);
-                                            }
-                                       );
+                $('#wait').append("Slujba a fost inregistrata").delay();
+                $('#wait').empty();
+                   $.post('/api/job/scoaterss',function(response){
+                       window.location=response[0].id;
+                   });
               }
        });
        return false;

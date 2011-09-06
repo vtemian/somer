@@ -1,0 +1,22 @@
+{% extends 'base_html.html' %}
+{% block content %}
+    <script>var id_job={{ job.id }}; </script>
+
+    <div id="chat">
+        <div id="job">
+               <h2> {{ job.Titlu }}</h2>
+               <h3> {{ job.Descriere }}</h3>
+        </div>
+        <textarea id="chat-display">
+        </textarea>
+        <div id="users-online">
+        </div>
+        <div id="catre">Catre:<div id="privat"></div></div>
+        <textarea id="scris"></textarea>
+        <script type="text/javascript"> var nume="{{ user.last_name }}"; var prenume="{{ user.first_name }}";</script>
+         <div id="div-scris"><a id="scris-a">Trimite</a></div>
+    </div>
+    <script>
+        open_chat(id_job);
+    </script>
+{% endblock %}

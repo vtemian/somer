@@ -105,6 +105,13 @@ socket.on('connection', function(client){
           for(var i in users)
               users[i].send(msg);
       }else
+      if(message.loser!=""){
+         sys.puts("crash")
+          var msg = { sterge:"sterge" };
+          var users =  room.scoate_user();
+          for(var i in users)
+              users[i].send(msg);
+      }else
       {
           sys.puts(message.mesaj);
           var msg = { messag: message.mesaj,user:message.user };

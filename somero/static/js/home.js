@@ -1,7 +1,16 @@
 $('document').ready(function(){
     $('#imgh').maphilight();
     var $filtre=1;
+    //rss
+    $.post('/api/job/scoaterss',function(response){
+
+           $.each(response,function(i){
+                $('#ultimele ul').append('<li><a href="'+response[i].id+'">Anunt: '+response[i].Titlu+' - '+response[i].Recompensa+' - '+response[i].Localitate+'</a></li>');
+           });
+           
+    });
     $("area","#judet").click(function(){
+       $('#statistici').css('display','none');
        $('#wait').append('Se cauta slujbe...');
         $.post('/api/job/scoate',{'Judet':$(this).attr('id')},function(response){
             $('#wait').empty();
@@ -154,7 +163,7 @@ function activare_filtre(){
 }
 function pune_joburi(response){
      $.each(response,function(i){
-               $('#jobs').append('<div id="job" tip="'+(i+1)+'"><h2><a id="'+response[i].id+'">'+response[i].Titlu+'</a></h2>'+'<h3>'+response[i].Descriere+'</h3></div>');
+               $('#jobs').append('<div id="job" tip="'+(i+1)+'"><h2><a id="'+response[i].id+'" href="'+response[i].id+'">'+response[i].Titlu+'</a></h2>'+'<h3>'+response[i].Descriere+'</h3></div>');
                     if(i%3==0&&i!=0)
                         $('#pagini').append('<a class="paginare">'+(i/3+1)+'</a> ');
                });

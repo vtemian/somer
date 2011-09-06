@@ -29,6 +29,10 @@ class UserLogin(Form):
     
     def scoate_user(self):
         return self.user
+class RegistrationForm(ModelForm):
+    class Meta:
+        model=User
+        fields=['first_name','last_name','username','email','password']
 class ModificaParola(Form):
     parola1 = CharField(required=True)
 class ModificaEmail(Form):
@@ -38,6 +42,6 @@ class ModificaJudet(Form):
 class AdaugaJob(ModelForm):
    class Meta:
        model=Job
-       fields=['Titlu','Descriere','Judet','Localitate','Varsta','Sex']
+       fields=['Titlu','Descriere','Judet','Localitate','Varsta','Sex','Recompensa']
 
 

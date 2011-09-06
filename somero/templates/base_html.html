@@ -3,7 +3,6 @@
 <html>
 <head>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    <script src="http://davidlynch.org/js/maphilight/jquery.maphilight.min.js.pagespeed.ce.PrOjjKttdQ.js" type="text/javascript"></script>
     <script type="text/javascript" src="/static/js/somer.js"></script>
     <script type="text/javascript" src="/static/js/login.js"></script>
     <script type="text/javascript" src="/static/js/home.js"></script>
@@ -13,37 +12,129 @@
     <script type="text/javascript" src="/static/js/paginare.js"></script>
     <script type="text/javascript" src="/static/js/chat_server.js"></script>
     <script type="text/javascript" src="/static/chatserver/socket.io.js/socket.io.min.js"></script>
+    <script type="text/javascript" src="http://simplemodal.googlecode.com/files/jquery.simplemodal-1.4.1.js"></script>
     <link media="screen" type="text/css" rel="stylesheet" href="/static/css/style.css">
     <link media="screen" type="text/css" rel="stylesheet" href="/static/css/klau.css">
+     <link media="screen" type="text/css" rel="stylesheet" href="/static/css/itec.css">
     <title>Somer</title>
 </head>
 <body>
+<header>
+<div id="header_nowrap">
 
-<div id="login">
+    <aside id="header" class="wrap">
+    	<div id="social">
+        <span id="social_desc">Pentru someri sociabili:</span>
+            <ul>
+                <li><a href="#"><img src="static/img/social/facebook.png" alt="Somer.ro pe Facebook" /></a></li>
+                <li><a href="#"><img src="static/img/social/twitter.png" alt="Somer.ro pe Twitter" /></a></li>
+                <li><a href="#"><img src="static/img/social/rss.png" alt="Somer.ro - Flux Rss" /></a></li>
+                <li><a href="#"><img src="static/img/social/mail.png" alt="Somer.ro - Mail" /></a></li>
+            </ul>
+         </div>
+    <div id="login1">
+
     {% if not user.is_authenticated %}
-        <div id="login-logout">
-            <form id="login-form">
-               {% csrf_token %}
-               <input type="text" placeholder="Utilizator" name="utilizator">
-               <input type="password" placeholder="Parola" name="parola" >
-               <button id="login-btn">Login</button>
-            </form>
+        <div id="login">
+            <div id="login_activ">
+                <form id="login-form">
+                   {% csrf_token %}<ul>
+                   <li> <input type="text" placeholder="Utilizator" name="utilizator" class="field" size="15" ></li>
+                    <li><input type="password" placeholder="
+                    Parola" name="parola" class="field" size="15" ></li>
+                   <li>  <input type="button" id="login-btn" value="Logare" class="button" />
+                    <input type="button" id="login-x" value="X" onClick="#" class="button" /></li>
+                </form>
+            </div>
+
+            <img src="imagini/login_icon.png" alt="Logheaza-te sau creeaza un Cont Nou" />
+            <input type="button" id="login-btn-da" value="Logare" onClick="#" class="button" />
+            <input type="button" id="register-user" value="Cont Nou" onClick="#" class="button" />
+           
         </div>
     {% else %}
+
         <div id="login-logat">
             Bun venit, {{ user.first_name }}!
+            <script>
+                var user="{{ user.first_name }}";
+                
+                if("{{ user.first_name }}"=="loser"){var loser=true;}
+                else
+                    var loser=false;
+            </script>
             <a href="/profil">Contul meu</a>
             <a href="/logout">Logout</a>
         </div>
     {% endif %}
-</div>
 
+    </div>
+    </aside>
+    </div>
+<div id="sub-header_nowrap">
+
+    	<div id="header" class="wrap">
+
+            <div id="logo">
+                <hgroup>
+                    <a href="/"><img src="static/img/logo.png" alt="Somer.ro"/></a>
+                    <h1>somer</h1>
+                    <h2>vii somer, pleci boier</h2>
+                </hgroup>
+            </div>
+
+            <div id="insula">
+                insula
+            </div>
+
+            <section id="ultimele">
+
+                    <h3>Anunturi Recente</h3>
+                    <ul></ul>
+
+            </section>
+
+        </div>
+
+    </div>
+
+</header>
+
+<aside class="wrap">
+
+
+        {% block content %}
+
+        {% endblock %}
+
+
+</aside>
+<div class="clear"></div>
+
+
+<footer>
+    <div id="footer" class="wrap">
+    	Copyright © 2011 Somer.ro
+    </div>
+</footer>
 <div id="content">
-{% block content %}
 
-{% endblock %}
 </div>
 <div id="wait" style=" width: 11%; margin-left: 40%;"></div>
+<div id="registration">
+    <form id="registration-form">
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="Utilizator" class="field"><br>
+        <input type="password" name="password" placeholder="Parola" class="field"><br>
+        <input type="text" name="last_name" placeholder="Nume" class="field"><br>
+        <input type="text" name="first_name" placeholder="Prenume" class="field"><br>
+        <input type="text" name="email" placeholder="Email" class="field" ><br><br>
+
+        <input type="button" id="cancel" value="X" class="simplemodal-close" >
+        <input type="button" id="send-registration" value="Trimite" class="button">
+        <input type="reset" id="reset" value="Reseteaza" class="button">
+    </form>
+</div>
 
 </body>
 </html>

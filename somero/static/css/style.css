@@ -4,6 +4,11 @@ body{
     overflow:hidden;
     padding: 0;
 }
+#registration{
+    width: 250px;px;
+    background-color:#FFFFFF;
+    display:none;
+}
 #joburi{
     display:none;
 }
@@ -184,6 +189,14 @@ img#filtre-img{
     width:3%;
     height:5%;
     background-image:url("/static/img/ok.png")
+}
+#login-logat{
+    
+	float:right;
+
+}
+#login-logat a{
+    color:#FFFFFF;
 }
 #login{
     float:right;

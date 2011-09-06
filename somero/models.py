@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.fields.related import ForeignKey
+
 class Job(models.Model):
     Titlu=models.CharField(max_length=60)
     Descriere=models.CharField(max_length=255)

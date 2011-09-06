@@ -1,0 +1,453 @@
+@charset "utf-8";
+/*                                                                                                                                                                                                   
+                     .  .                                                                            .                                                    ..                                     .      
+              +ZZZZZZZZZZI~                     :IZZZZZZZ7~     .              .                ~IZZZZZI .           +$ZZZZZI                  .  . =$ZZZZZZZ+.  .  .                       . .  +Z     
+         .$ZZZZZZZZZZZZZZZZZZZZ             +ZZZZZZZZZZZZZZZZZI.              ZZZZZZZZ   . 7ZZZZZZZZZZZZZZ.    .$ZZZZZZZZZZZZZZ.             .  ?ZZZZZZZZZZZZZZZZ?.          . :ZZZZZZZZZ     ZZZZZ .   
+        ZZZZZZZZZZZZZZZZZZZZZZZ.          ZZZZZZZZZZZZZZZZZZZZZZZ,            ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ$ZZZZZZZZZZZZZZZZZZZZ$         . . ZZZZZZZZZZZZZZZZZZZZZZ .         :ZZZZZZZZZ.~ZZZZZZZZ     
+       ZZZZZZZZZZZZZZZZZZZZZZZ+         ZZZZZZZZZZZZZZZZZZZZZZZZZZZ           ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ~          $ZZZZZZZZZZZZZZZZZZZZZZZZ,         :ZZZZZZZZZZZZZZZZZZZ:    
+     .,ZZZZZZZZZZZZZZZZZZZZZZZ,       .ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ          ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ         ?ZZZZZZZZZZZZZZZZZZZZZZZZZZ         :ZZZZZZZZZZZZZZZZZZZ+    
+      ZZZZZZZZZZZZZZZZZZZZZZZZ.      .7ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ         ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ         ZZZZZZZZZZZZZZZZZZZZZZZZZZZZ        :ZZZZZZZZZZZZZZZZZZZZ    
+      ZZZZZZZZZZ~     . .. .          ZZZZZZZZZZZZ: ..  .ZZZZZZZZZZZZ         ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ .     .ZZZZZZZZZZZ?....   ZZZZZZZZZZ        :ZZZZZZZZZZZZZZZZZZZZ    
+      ZZZZZZZZZZ                     ~ZZZZZZZZZZZ         $ZZZZZZZZZZ$        ZZZZZZZZZZZZZZZ. .. ZZZZZZZZZZZZZZZZ.    ZZZZZZZZZZZ:     . ZZZZZZZZZZZ        ?ZZZZZZZZZI       :ZZZZZZZZZZZZZZZZZI      
+      ZZZZZZZZZZI                    ZZZZZZZZZZZ           ZZZZZZZZZZZ        ZZZZZZZZZZZ          ZZZZZZZZZZZ.         ZZZZZZZZZZ:     . ZZZZZZZZZZ:        .ZZZZZZZZZZ       :ZZZZZZZZZZZZZZ   .      
+      ZZZZZZZZZZZZZZ7,               ZZZZZZZZZZZ           ZZZZZZZZZZZ        ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZ=:::::::::ZZZZZZZZZZ       :ZZZZZZZZZZZ.            
+      +ZZZZZZZZZZZZZZZZZZ7           ZZZZZZZZZZZ           ZZZZZZZZZZZ        ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ       :ZZZZZZZZZZ              
+       ZZZZZZZZZZZZZZZZZZZZZZ .      ZZZZZZZZZZZ           ZZZZZZZZZZZ        ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ       :ZZZZZZZZZZ              
+      . ZZZZZZZZZZZZZZZZZZZZZZ=      ZZZZZZZZZZZ           ZZZZZZZZZZZ        ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ       :ZZZZZZZZZZ              
+          ?ZZZZZZZZZZZZZZZZZZZZ      ZZZZZZZZZZZ           ZZZZZZZZZZZ        ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ       :ZZZZZZZZZZ              
+               ?ZZZZZZZZZZZZZZZZ     ZZZZZZZZZZZ           ZZZZZZZZZZZ        ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ .     :ZZZZZZZZZZ              
+                   .ZZZZZZZZZZZZ .   ZZZZZZZZZZZ.         .ZZZZZZZZZZZ        ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZ:                          :ZZZZZZZZZZ              
+                     +ZZZZZZZZZZ     ZZZZZZZZZZZ        .  ZZZZZZZZZZZ        ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZ+                          :ZZZZZZZZZZ              
+                     +ZZZZZZZZZZ     :ZZZZZZZZZZZ         ZZZZZZZZZZZI        ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZZ.                         :ZZZZZZZZZZ              
+       ZZ~    .     .ZZZZZZZZZZZ..    ZZZZZZZZZZZZI.    +ZZZZZZZZZZZZ         ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:       ZZZZZZZZZZZZ~         ..?ZZZ.        :ZZZZZZZZZZ              
+      ?ZZZZZZZZZZZZZZZZZZZZZZZZI      ?ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ         ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:        ZZZZZZZZZZZZZZZZZZZZZZZZZZZ,        :ZZZZZZZZZZ              
+     .ZZZZZZZZZZZZZZZZZZZZZZZZZ       .$ZZZZZZZZZZZZZZZZZZZZZZZZZZZZ          ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:        ,ZZZZZZZZZZZZZZZZZZZZZZZZZZZ        :ZZZZZZZZZZ              
+      ZZZZZZZZZZZZZZZZZZZZZZZZ+         $ZZZZZZZZZZZZZZZZZZZZZZZZZZ           ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:         ~ZZZZZZZZZZZZZZZZZZZZZZZZZZ        :ZZZZZZZZZZ              
+     ?ZZZZZZZZZZZZZZZZZZZZZZZ.          . ZZZZZZZZZZZZZZZZZZZZZZZ             ZZZZZZZZZZ:          ZZZZZZZZZZ:          ZZZZZZZZZZ:           $ZZZZZZZZZZZZZZZZZZZZZZZZ        :ZZZZZZZZZZ              
+     . ?ZZZZZZZZZZZZZZZZZZZ                 .ZZZZZZZZZZZZZZZZZ,  .            ZZZZZZZZZZ:         .ZZZZZZZZZZ:          ZZZZZZZZZZ: .            ZZZZZZZZZZZZZZZZZZZ$,.      . :ZZZZZZZZZZ              
+       .      ~I$ZZZ$I:                         .:+IZZZ$I:                                          .                               .          .     :+7ZZZZI+:       .      .                          
+
+*/
+
+/* reset styles ~ IE must DIE!
+--------------------------------------------- */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+:focus {
+}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+nav ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+a {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+ins {
+    background-color: #FFFF99;
+    color: #000000;
+    text-decoration: none;
+}
+mark {
+    background-color: #FFFF99;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted #000000;
+    cursor: help;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC -moz-use-text-color -moz-use-text-color;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+}
+input, select {
+    vertical-align: middle;
+}
+
+/* Somer.ro - pure style baby
+--------------------------------------------- 
+--------------------------------------------- 
+--------------------------------------------- 
+--------------------------------------------- 
+--------------------------------------------- */
+
+/* global
+--------------------------------------------- */
+
+body {
+	background:#f1f1f1 url('../img/bg.png') repeat;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+/* links */
+
+a:link, a:visited {
+	color: #97aaba;
+	outline: none;
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: none;
+	color: #a4c9e9;
+	}
+
+/* custom selection colors */
+
+::-moz-selection {
+	color: #fff;
+	color: rgba(255,255,255,.85);
+	background: #cbd4db;
+	}
+::selection {
+	color: #fff;
+	color: rgba(255,255,255,.85);
+	background: #cbd4db;
+	}
+	
+.button, .button:visited {
+	background: #a6b9c6 url(../img/overlay.png) repeat-x;
+	display: inline-block;
+	padding: 2px 10px 2px;
+	margin:0px 5px 0px 5px;
+	color: #fff;
+	text-decoration: none;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.6);
+	text-shadow:#7d92a3 1px 1px 0px;
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+	border:0px;
+}
+
+.button:hover { background-color: #b2c5d2; color: #fff; }
+.button:active { top: 1px;}
+
+aside {position:relative;}
+.clear {clear:both;}
+	
+/* page structure
+--------------------------------------------- */
+
+.wrap {
+	width:940px;
+	margin:0 auto;
+}
+
+/* header
+--------------------------------------------- */
+
+header aside {
+	font-size:12px;
+	color:#fff;
+	text-shadow:#7d92a3 1px 1px 0px
+	
+}
+
+#header {
+	position:relative;
+}
+
+#header_nowrap {
+	background:#98acbb url('../img/header_bg.png') repeat-x;
+	width:100%;
+	height:32px;
+	padding-top:19px;
+}
+
+
+#social {
+	float:left;
+	padding-top:3px;
+}
+
+#social ul{
+float:left;
+}
+
+#social li{
+	list-style:none;
+	float:left;
+	margin-left:10px;
+	vertical-align:middle;
+}
+
+
+#social_desc{
+	float:left;
+	padding-top:3px;
+}
+
+#login {
+	float:right;
+}
+
+#login_activ {
+	position:absolute;
+	top:5;
+	right:0;
+	background:#d2dbe3;
+	width:140px;
+    margin:10px;
+	padding:20px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 50px 50px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 50px 50px rgba(0,0,0,0.6);
+	z-index:1000;
+	display:none;
+}
+
+#login_activ ul {
+	list-style:none;
+}
+
+#login_activ li {
+	margin-top:10px;
+}
+
+
+
+
+
+/* sub-header
+--------------------------------------------- */
+
+#sub-header_nowrap {
+	background:#f1f1f1 url('../img/sub-header_bg.png') repeat-x;
+	width:100%;
+	height:188px;
+}
+
+#logo {
+	background:url('../img/logo_bg.png') no-repeat;
+	width:203px;
+	height:130px;
+	margin-top:20px;
+	padding-left:45px;
+	padding-top:20px;
+	float:left;
+}
+
+#logo h1 {
+display:none;
+text-indent:-9999px;
+}
+
+#logo h2 {
+font-size:12px;
+color:#f1f1f1;
+text-shadow:#7d92a3 2px 1px 0px
+}
+
+/* insula */
+
+#insula {
+background:url(../img/insula.png) no-repeat;
+width:370px;
+height:196px;
+float:left;
+position:absolute;
+top:-15px;	
+left:234px;
+text-indent:-9999px;
+}
+
+/* ultimele */
+
+#ultimele {
+float:right;
+padding:10px 20px 10px 6px;
+margin-top:20px;
+border:1px solid #97aaba;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+background-color:#f1f1f1;
+-moz-box-shadow: 0 0px 8px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0px 8px rgba(0,0,0,0.2);
+}
+
+#ultimele h3 {
+background-color:#d2dbe3;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+padding:4px 10px 4px 10px;
+font-size:15px;
+color:#fff;
+text-shadow:#7d92a3 1px 1px 0px;
+display:inline;
+-moz-box-shadow: 0 1px 0px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 0px rgba(0,0,0,0.3);
+}
+
+
+#ultimele  li {
+list-style:none;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #97aaba;
+font-size:13px;
+padding-top:2px;
+margin-left:14px;
+}
+
+
+#ultimele ul li:first-child {border-top: none; margin-top:10px;}
+#ultimele ul li:last-child {border-bottom: none;}
+#ultimele ul li a {
+	display: block;
+	text-decoration: none;
+	color:#333;
+	padding:1px;
+}
+#ultimele ul li a:hover {background: #d2dbe3; color:#fff; text-shadow:#7d92a3 1px 1px 0px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+
+/* harta + statistici
+--------------------------------------------- */
+
+/* statistici */
+
+#statistici {
+	width:212px;
+	height:200px;
+	display: inline-block;
+	padding: 10px 0px 5px;
+	text-decoration: none;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.6);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	background-color:#d2dbe3;
+	position:relative;
+	float:left;
+}
+
+.bara-stanga {
+	position:absolute;
+	background:url('../img/stanga_bara.png') no-repeat;
+	width:16px;
+	height:52px;
+	top:1; 
+	left:-16px;
+}
+
+
+.bara-mijloc {
+	background:url('../img/mijloc_bara.png') repeat-x;
+	width:100%;
+	height:52px;
+	float:left;
+	padding-top:8px;
+	padding-left:8px;
+	color:#fff;
+	text-shadow:#7d92a3 1px 1px 0px;
+}
+
+.bara-dreapta {
+	position:absolute;
+	background:url('../img/dreapta_bara.png') no-repeat;
+	width:13px;
+	height:35px;
+	top:1; 
+	right:1;
+	float:left;
+}
+
+#statistici ul {
+	list-style:none;
+}
+
+#statistici li {
+	margin-left:10px;
+	color:#fff;
+	text-shadow:#7d92a3 1px 1px 0px;
+	font-weight:bold;
+}
+
+#registration {
+    padding:30px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-box-shadow: 0 50px 50px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 50px 50px rgba(0,0,0,0.4);
+}
+
+/* harta */
+
+#harta {
+	width:779px;
+	height:559px;
+	float:left;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+
+/* footer
+--------------------------------------------- */
+
+footer {
+	background-color:#fff;
+	border-top:1px solid #c9c9c9;
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+
+#footer {
+	color:#8f8f8f;
+	font-size:13px;
+	margin-top:20px;
+}
